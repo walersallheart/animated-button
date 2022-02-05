@@ -20,15 +20,15 @@ button{
     position:absolute;
     opacity:0;
     transition: all .3s ease-out;
+    content:'>';
   }
 
   button::before{
-    content:'>';
     left:-20px;
   }
 
   button::after{
-    content:'<';
+    transform: rotate(180deg);
     right:-20px;
   }
 
