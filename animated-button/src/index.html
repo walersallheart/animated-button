@@ -8,22 +8,45 @@
     <script type="module" src="/build/animated-button.esm.js"></script>
     <script nomodule src="/build/animated-button.js"></script>
     <style>
+      html{
+        font-family: sans-serif;
+      }
+
+      header{
+        padding:1rem;
+        font-size:2rem;
+      }
+
+      header,
+      main{
+        width:100%;
+        max-width: 300px;
+        margin:0 auto;
+        text-align: center;
+      }
+
       ul{
         list-style: none;
         padding:0;
         margin:0;
       }
+
+      li{
+        margin-bottom: .5rem;
+      }
     </style>
   </head>
   <body>
     <header>The Justice League</header>
-    <ul>
-      <li><animated-button>Superman</animated-button></li>
-      <li><animated-button>Batman</animated-button></li>
-      <li><animated-button>Wonder Woman</animated-button></li>
-      <li><animated-button>The Flash</animated-button></li>
-      <li><animated-button>Aquaman</animated-button></li>
-      <li><animated-button>Cyborg</animated-button></li>
-    </ul>
+    <main>
+      <ul>
+        <li><animated-button>Superman</animated-button></li>
+        <li><animated-button>Batman</animated-button></li>
+        <li><animated-button>Wonder Woman</animated-button></li>
+        <li><animated-button>The Flash</animated-button></li>
+        <li><animated-button>Aquaman</animated-button></li>
+        <li><animated-button>Cyborg</animated-button></li>
+      </ul>
+    </main>
   </body>
 </html>
