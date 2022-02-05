@@ -3,12 +3,27 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
-    <title>Stencil Component Starter</title>
+    <title>Animated Button Web Component</title>
 
     <script type="module" src="/build/animated-button.esm.js"></script>
     <script nomodule src="/build/animated-button.js"></script>
+    <style>
+      ul{
+        list-style: none;
+        padding:0;
+        margin:0;
+      }
+    </style>
   </head>
   <body>
-    <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+    <header>The Justice League</header>
+    <ul>
+      <li><animated-button>Superman</animated-button></li>
+      <li><animated-button>Batman</animated-button></li>
+      <li><animated-button>Wonder Woman</animated-button></li>
+      <li><animated-button>The Flash</animated-button></li>
+      <li><animated-button>Aquaman</animated-button></li>
+      <li><animated-button>Cyborg</animated-button></li>
+    </ul>
   </body>
 </html>

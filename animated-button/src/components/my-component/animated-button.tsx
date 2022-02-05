@@ -1,4 +1,4 @@
-import { Component, Prop, h } from '@stencil/core';
+import { Component, h } from '@stencil/core';
 
 @Component({
   tag: 'animated-button',
@@ -7,8 +7,8 @@ import { Component, Prop, h } from '@stencil/core';
 })
 export class AnimatedButton {
   render() {
-    return <div>
-
-    </div>;
+    return <button>
+      <slot/>
+    </button>;
   }
 }

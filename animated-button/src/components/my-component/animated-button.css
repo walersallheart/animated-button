@@ -1,3 +1,9 @@
 :host {
   display: block;
 }
+
+button{
+  text-align: center;
+  outline:1px solid black;
+  padding:1.5rem 0;
+}
